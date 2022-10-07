@@ -1,4 +1,4 @@
-package controller;
+package com.GIVEN.practicegithubAction.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
