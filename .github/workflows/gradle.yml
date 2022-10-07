@@ -38,6 +38,9 @@ jobs:
       with:
         arguments: build
 
+    - name: Run chmod to make gradlew executable
+      run: chmod +x ./gradlew
+
     - name: Make zip file
       run: zip -r ./practice-deploy.zip .
       shell: bash
